@@ -14,8 +14,10 @@ body {
     background-color: #FFDBAA;
     color: #553100;
     width: 100%;
-  
+    border-bottom: 1px solid black;
+    height: 15vh;
     display: flex;
+    justify-content: space-around;
   }
   
   main {
@@ -23,15 +25,17 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    height: 85vh;
   }
   
   section {
     background-color: white;
-    box-shadow: 2px 2px 4px black;
-    margin: 5px;
+    box-shadow: 0 0 5px black;
+    margin-top: 5vh;
     padding: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   
   .inline-section {
@@ -42,8 +46,21 @@ body {
     width: 95vw;
   }
   
+  .section-header {
+    display: flex;
+    align-self: center;
+  }
+  
+  .section-button {
+    display: flex;
+    align-self: center;
+    border: 1px solid black;
+    width: 95%;
+  }
+  
   button {
     background-color: #805215;
+    font-weight: bold;
     color: white;
     border: 0;
     box-shadow: none;
