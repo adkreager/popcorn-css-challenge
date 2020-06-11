@@ -25,6 +25,10 @@ body {
     padding-top: 3vh;
   }
   
+  nav {
+    white-space: nowrap;
+  }
+  
   main {
     display: flex;
     flex-flow: row wrap;
@@ -59,11 +63,15 @@ body {
   button {
     background-color: #805215;
     font-weight: bold;
+    font-size: 3vh;
     color: white;
     border: 0;
     box-shadow: none;
     border-radius: 0px;
-    padding: 10px;
+    padding: 2.5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
   }
   
   .section-button {
