@@ -4,16 +4,33 @@
 //Header Text - #553100
 //Main background - #D4A76A*/
 
-header {
+body {
+    margin: 0;
+  //set the font here
+    
+  }
+  
+  header {
+    
     background-color: #FFDBAA;
     color: #553100;
-}
-
-main {
+    width: 100%;
+  }
+  
+  main {
     background-color: #D4A76A;
-}
-
-button {
+    width: 100vw;
+  }
+  
+  section {
+    background-color: white;
+  }
+  
+  button {
     background-color: #805215;
     color: white;
-}
+     border: 0;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 10px;
+  }
