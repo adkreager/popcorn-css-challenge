@@ -6,31 +6,48 @@
 
 body {
     margin: 0;
-  //set the font here
-    
+    font-family: sans-serif;
+    width: 100vw;
   }
   
   header {
-    
     background-color: #FFDBAA;
     color: #553100;
     width: 100%;
+  
+    display: flex;
   }
   
   main {
     background-color: #D4A76A;
-    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
   }
   
   section {
     background-color: white;
+    box-shadow: 2px 2px 4px black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inline-section {
+    width: 25vw;
+  }
+  
+  .stretch-section {
+    width: 95vw;
   }
   
   button {
     background-color: #805215;
     color: white;
-     border: 0;
+    border: 0;
     box-shadow: none;
     border-radius: 0px;
     padding: 10px;
+    margin: 10px;
   }
