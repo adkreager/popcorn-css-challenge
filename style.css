@@ -51,6 +51,12 @@ body {
     text-align: center;
   }
   
+  p {
+    margin-top: -1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  
   .inline-section {
     width: 24vw;
   }
